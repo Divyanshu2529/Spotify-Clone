@@ -154,9 +154,30 @@ body{
 }
 
 .playbar{
-    position: absolute;
-    bottom: 0;
-    background-color: rgb(139,193,139);
-    width: 100%;
+    display: flex;
+    position: fixed;
+    bottom: 30px;
+    justify-content: center;
+    align-items: center;
+     filter: invert(1);
+    background: #e2d9d9;
+    border-radius: 10px;
+    width: 90%;
     padding: 12px;
+    min-height: 40px;
+    width: 70vw;
+}
+
+.songbuttons{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.songList ul{
+    padding: 0 42px;;
+}
+
+.songList ul li{
+    list-style-type: decimal;
 }
