@@ -6,6 +6,17 @@ body{
 header{
     display: flex;
     gap:10px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.front, .middle, .back {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   
 }
 
 .middle button{
@@ -19,10 +30,35 @@ header{
     justify-content: center;
 }
 
+.normal_buttons{
+    border: none;
+    background: transparent;
+    color: #B3B3B3;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.down_arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.down_arrow_img{
+    height: 20px;
+}
+
+.right_side_buttons{
+    font-size: 14px;
+}
+
 .back .divider {
   width: 1px;
   height: 24px;
-  background-color: #666; 
+  background-color: white; 
   display: inline-block;
   margin: 0 16px; 
 }
+
