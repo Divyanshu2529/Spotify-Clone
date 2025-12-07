@@ -5,11 +5,47 @@ body{
 
 header{
     display: flex;
-    gap:10px;
+    gap: 10px;
     align-items: center;
-    justify-content: space-between;
-    padding: 0;
+    padding: 0 16px;
     margin: 0;
+}
+
+/* HOME ICON */
+.home {
+    height: 25px;
+    transition: transform 0.2s ease;   
+}
+
+
+.icon-btn {
+    background-color: #1F1F1F;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    transition: background-color 0.2s ease; 
+}
+
+
+.icon-btn:hover {
+    background-color: #282828;      
+}
+
+
+.icon-btn:hover .home {
+    transform: scale(1.10);           
+}
+
+
+.middle {
+    margin-left: auto; 
+    flex-shrink: 0; 
 }
 
 .front, .middle, .back {
@@ -19,15 +55,59 @@ header{
    
 }
 
-.middle button{
+.icon-btn{
     background-color: #1F1F1F;
     border: none;
     border-radius: 50%;
     width: 50px;
     height: 50px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #1F1F1F;
+    height: 48px;
+    border-radius: 100px;
+    padding: 0 16px;
+    width: 450px;     
+    max-width: 600px;   
+}
+
+.search-icon{
+    height: 25px;
+}
+
+.right_icon {
+    height: 25px;
+    transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.right_icon:hover {
+    transform: scale(1.12);
+    filter: brightness(0) invert(1);   
+}
+
+
+.search-bar input{
+    border: none;
+    background: transparent;
+    color: #ffffff;
+    flex: 1;  
+    font-size: 16px;
+    outline: none;
+}
+
+.back{
+    gap: 16px;
+}
+
+.search-bar input::placeholder {
+    color: #B3B3B3;
 }
 
 .normal_buttons{
@@ -37,6 +117,7 @@ header{
     margin: 0;
     padding: 0;
     font-size: 16px;
+    transition: transform 0.2s ease, color 0.2s ease;
 }
 
 .down_arrow{
@@ -54,8 +135,8 @@ header{
     font-size: 14px;
 }
 
-.back .divider {
-  width: 1px;
+.divider {
+  width: 0.5px;
   height: 24px;
   background-color: white; 
   display: inline-block;
@@ -71,4 +152,9 @@ header{
     border: none;
     font-weight: bold;
     font-size: 15px;
+}
+
+.normal_buttons:hover{
+    color: white;
+    transform: scale(1.07);
 }
