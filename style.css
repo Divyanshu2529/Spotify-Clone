@@ -1,13 +1,15 @@
 body{
     background-color: black;
     color: white;
+    margin: 0;
+    padding: 0;
 }
 
 header{
     display: flex;
     gap: 10px;
     align-items: center;
-    padding: 0 16px;
+    padding: 8px 16px;
     margin: 0;
 }
 
@@ -28,7 +30,6 @@ header{
     justify-content: center;
     align-items: center;
     cursor: pointer;
-
     transition: background-color 0.2s ease; 
 }
 
@@ -110,6 +111,17 @@ header{
     color: #B3B3B3;
 }
 
+.search-bar{
+    transition: background-color 0.2s ease;
+    border: 0.5px solid transparent;
+}
+
+.search-bar:hover{
+    background-color: rgba(128, 128, 128, 0.373);
+    transform: scale(1); 
+    border-color: rgb(111, 109, 109);
+}
+
 .normal_buttons{
     border: none;
     background: transparent;
@@ -163,4 +175,10 @@ header{
 .log_in_button:hover{
     background-color: rgba(255, 255, 255, 0.888);
     transform: scale(1.05); 
+}
+
+.left_side{
+    width: 25vw;
+    height: 83vh;
+    background-color: aqua;
 }
