@@ -152,9 +152,15 @@ header{
     border: none;
     font-weight: bold;
     font-size: 15px;
+    transition: background-color 0.2s ease;
 }
 
 .normal_buttons:hover{
     color: white;
     transform: scale(1.07);
+}
+
+.log_in_button:hover{
+    background-color: rgba(255, 255, 255, 0.888);
+    transform: scale(1.05); 
 }
