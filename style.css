@@ -1,3 +1,8 @@
+html, body {
+  font-family: 'Inter', sans-serif;
+}
+
+
 body{
     background-color: black;
     color: white;
@@ -181,24 +186,51 @@ header{
     padding: 0 10px;
     margin: 0;
     width: 24vw;
+    /* background-color: #111111; */
+    background-color: aqua;
 }
 
 .left_side{
-    background-color: aqua;
+    border: 1px solid green;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #111111;
+
 }
 
 .plus_sign{
     height: 20px;
     width: 20px;
+
+}
+
+.big{
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.small{
+    font-size: 14px;
+    color: #ffffff;
 }
 
 .left_side_two{
-    background-color: red;
+    border: 1px solid red;
+    background-color: #1F1F1F;
 }
 
 .left_side_three{
-    background-color: bisque;
+    border: 1px solid blue;
+    background-color: #1F1F1F;
+}
+
+.left_side_four{
+    border: 1px solid yellow;
+    background-color: #1F1F1F;
+}
+
+.left_side_five{
+    border: 1px solid pink;
+    background-color: #1F1F1F;
 }
