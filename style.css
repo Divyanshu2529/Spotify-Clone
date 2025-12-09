@@ -2,12 +2,16 @@ html, body {
   font-family: 'Inter', sans-serif;
 }
 
+* {
+  box-sizing: border-box;
+}
 
 body{
     background-color: black;
     color: white;
     margin: 0;
     padding: 0;
+    min-height: 100vh;
 }
 
 header{
@@ -16,6 +20,11 @@ header{
     align-items: center;
     padding: 8px 16px;
     margin: 0;
+}
+
+.second_part{
+    display: flex; 
+    padding: 8px;               
 }
 
 /* HOME ICON */
@@ -183,10 +192,12 @@ header{
 }
 
 .left{
-    padding: 0 10px;
+    padding: 16px;              
     margin: 0;
-    width: 24vw;
-    background-color: #111111;
+    width: 100%;               
+    max-width: 430px;           
+    background-color: #121212;  
+    border-radius: 8px;
 }
 
 .left_side{
@@ -214,7 +225,7 @@ header{
 }
 
 .left_side_two{
-    border-radius: 10px;
+    border-radius: 12px;
     padding: 15px 20px;
     border: none;
     background-color: #1F1F1F;
@@ -222,7 +233,7 @@ header{
 }
 
 .left_side_three{
-    border-radius: 10px;
+    border-radius: 12px;
     padding: 15px 20px;
     background-color: #1F1F1F;
     margin-bottom: 180px;
