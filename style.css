@@ -186,17 +186,15 @@ header{
     padding: 0 10px;
     margin: 0;
     width: 24vw;
-    /* background-color: #111111; */
-    background-color: aqua;
+    background-color: #111111;
 }
 
 .left_side{
-    border: 1px solid green;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #111111;
-
+    margin-bottom: 30px;
 }
 
 .plus_sign{
@@ -216,23 +214,35 @@ header{
 }
 
 .left_side_two{
-    border: 1px solid red;
+    border-radius: 10px;
+    padding: 15px 20px;
+    border: none;
     background-color: #1F1F1F;
+    margin-bottom: 20px;
 }
 
 .left_side_three{
-    border: 1px solid blue;
+    border-radius: 10px;
+    padding: 15px 20px;
     background-color: #1F1F1F;
+    margin-bottom: 180px;
 }
 
 .left_side_four{
-    border: 1px solid yellow;
-    background-color: #1F1F1F;
+    margin-bottom: 25px;
+}
+
+.button_one_margin{
+    margin: 10px;
 }
 
 .left_side_five{
     border: 1px solid pink;
     background-color: #1F1F1F;
+}
+
+.button_two_margin{
+    margin: 10px;
 }
 
 .left_side_button_one{
@@ -268,6 +278,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 0;
 }
 
 .third_line_img{
@@ -311,4 +322,8 @@ header{
     border-radius: 50px;
     width: 95px;
     height: 35px;
+}
+
+.earth{
+    margin-bottom: 20px;
 }
