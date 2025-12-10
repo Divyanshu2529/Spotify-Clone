@@ -236,7 +236,7 @@ header{
     border-radius: 12px;
     padding: 15px 20px;
     background-color: #1F1F1F;
-    margin-bottom: 180px;
+    margin-bottom: 220px;
 }
 
 .left_side_four{
@@ -245,6 +245,8 @@ header{
 
 .button_one_margin{
     margin: 10px;
+    display: flex;
+    gap: 15px;
 }
 
 .left_side_five{
@@ -254,6 +256,8 @@ header{
 
 .button_two_margin{
     margin: 10px;
+    display: flex;
+    gap: 15px;
 }
 
 .left_side_button_one{
